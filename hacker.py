@@ -4,5 +4,6 @@ y = input("Enter date here")
 z = input("Enter time here")
 with open("todo.txt" ,"w") as f:
  f.write(f"{t} . {x} {y} {z}")
- for o in f:
+with open("todo.txt" , "a") as p
+ for o in p:
   f.append(f"{t} . {x} {y} {z}")
