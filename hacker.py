@@ -5,3 +5,4 @@ def todo():
  z = input("Enter time here")
  with open("todo.txt" , "a") as p:
   p.write(f"{t} . {x} {y} {z}\n")
+  p.read("todo.txt" )
