@@ -4,4 +4,4 @@ def todo():
  y = input("Enter date here")
  z = input("Enter time here")
  with open("todo.txt" , "a") as p:
-  p.write(f"{t} . {x} {y} {z}"\n)
+  p.write(f"{t} . {x} {y} {z}\n")
